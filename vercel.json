@@ -4,7 +4,10 @@
     { "source": "/proxy/:match/:url*/", "destination": "https://:match/:url*/" },
     { "source": "/httpproxy/:match/:url*", "destination": "http://:match/:url*" },
     { "source": "/httpproxy/:match/:url*/", "destination": "http://:match/:url*/" },
-    { "source": "/search/:query", "destination": "/proxy/www.google.com/search?q=:query" },
-    { "source": "/search/:query/:page", "destination": "/proxy/www.google.com/search?q=:query&start=:page" }
+    {
+      "source": "/search/:query",
+      "destination": "/proxy/www.google.com/search?q=:query",
+      "statusCode": 308
+    }
   ]
 }
