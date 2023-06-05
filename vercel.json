@@ -9,5 +9,6 @@
       "destination": "/proxy/www.google.com/search?q=:query",
       "statusCode": 308
     }
+    
   ]
 }
