@@ -6,8 +6,7 @@
     { "source": "/httpproxy/:match/:url*/", "destination": "http://:match/:url*/" },
     {
       "source": "/search/:query",
-      "destination": "https://www.google.com/search?q=:query",
-      "statusCode": 308
+      "destination": "https://www.google.com/search?q=:query"
     }    
   ]
 }
