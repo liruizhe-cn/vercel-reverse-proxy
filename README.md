@@ -1,3 +1,4 @@
+# 本人(@orangesummertime)已改进此项目，在访问谷歌后可以正常翻页
 # vercel-reverse-proxy
 [English README](./README_EN.md)
 
