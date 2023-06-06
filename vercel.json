@@ -1,8 +1,8 @@
 {
   "rewrites": [
-    { "source": "/proxy/:match/:url*", "destination": "https://:match/:splat" },
-    { "source": "/proxy/:match/:url*/", "destination": "https://:match/:splat/" },
-    { "source": "/httpproxy/:match/:url*", "destination": "http://:match/:splat" },
-    { "source": "/httpproxy/:match/:url*/", "destination": "http://:match/:splat/" }
+    { "source": "/proxy/:url*", "destination": "https://:url*" },
+    { "source": "/proxy/:url*/", "destination": "https://:url*" },
+    { "source": "/httpproxy/:url*", "destination": "http://:url*" },
+    { "source": "/httpproxy/:url*/", "destination": "http://:url*" }
   ]
 }
