@@ -8,7 +8,6 @@
       "source": "/search/:query",
       "destination": "https://www.google.com/search?q=:query",
       "statusCode": 308
-    }
-    
+    }    
   ]
 }
