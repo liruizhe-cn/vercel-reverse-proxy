@@ -1,12 +1,8 @@
 {
   "rewrites": [
-    { "source": "/proxy/:match/:url*", "destination": "https://:match/:url*" },
-    { "source": "/proxy/:match/:url*/", "destination": "https://:match/:url*/" },
-    { "source": "/httpproxy/:match/:url*", "destination": "http://:match/:url*" },
-    { "source": "/httpproxy/:match/:url*/", "destination": "http://:match/:url*/" },
-    {
-      "source": "/search/:query",
-      "destination": "https://www.google.com/search?q=:query"
-    }    
+    { "source": "/proxy/:match/:url*", "destination": "https://:match/:splat" },
+    { "source": "/proxy/:match/:url*/", "destination": "https://:match/:splat/" },
+    { "source": "/httpproxy/:match/:url*", "destination": "http://:match/:splat" },
+    { "source": "/httpproxy/:match/:url*/", "destination": "http://:match/:splat/" }
   ]
 }
